@@ -1,0 +1,16 @@
+cmd: python -m src.model.model_building
+deps:
+- path: data/processed
+  hash: md5
+  md5: b62a371f60021dddd5a2eb2a80a380ae.dir
+  size: 21707
+  nfiles: 2
+- path: src/model/model_building.py
+  hash: md5
+  md5: 5262c77711462ba3ee484a3828aa413f
+  size: 1859
+outs:
+- path: models/model.pkl
+  hash: md5
+  md5: f2d9c5eb479b26bcaf39ea36f11c3000
+  size: 872
