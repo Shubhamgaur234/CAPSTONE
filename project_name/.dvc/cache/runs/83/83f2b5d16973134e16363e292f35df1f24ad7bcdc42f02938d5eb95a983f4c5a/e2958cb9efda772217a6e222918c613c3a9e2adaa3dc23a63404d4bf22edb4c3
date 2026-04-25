@@ -1,0 +1,19 @@
+cmd: python -m src.model.model_evaluation
+deps:
+- path: models/model.pkl
+  hash: md5
+  md5: 1626a30fe36fe9527a0278e939ef22e5
+  size: 1115
+- path: src/model/model_evaluation.py
+  hash: md5
+  md5: bb812d2146b190d312e8593596533e7b
+  size: 5698
+outs:
+- path: reports/experiment_info.json
+  hash: md5
+  md5: 7c89cdef75145295a151922946776372
+  size: 82
+- path: reports/metrics.json
+  hash: md5
+  md5: 05ee9f48f2779812d3d4aeb339db6efe
+  size: 120

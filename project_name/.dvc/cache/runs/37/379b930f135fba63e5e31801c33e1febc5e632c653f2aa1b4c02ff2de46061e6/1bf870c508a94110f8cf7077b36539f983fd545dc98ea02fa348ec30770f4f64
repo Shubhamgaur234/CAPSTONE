@@ -1,0 +1,21 @@
+cmd: python -m src.features.feature_engineering
+deps:
+- path: data/interim
+  hash: md5
+  md5: 01fb75ab29d0d899563df3d56ae47c33.dir
+  size: 405766
+  nfiles: 2
+- path: src/features/feature_engineering.py
+  hash: md5
+  md5: becb1ca06f27577ad6632e061bd3e290
+  size: 3446
+outs:
+- path: data/processed
+  hash: md5
+  md5: fa4a4d72c8228cec27da99bde02e540b.dir
+  size: 51889
+  nfiles: 2
+- path: models/vectorizer.pkl
+  hash: md5
+  md5: 63d4bae4000be99d10cd6476a7437077
+  size: 1856
