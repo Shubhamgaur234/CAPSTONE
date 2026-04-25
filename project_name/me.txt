@@ -1,9 +1,0 @@
-https://dagshub.com/gaur3786/CAPSTONE.mlflow
-
-import dagshub
-dagshub.init(repo_owner='gaur3786', repo_name='CAPSTONE', mlflow=True)
-
-import mlflow
-with mlflow.start_run():
-  mlflow.log_param('parameter name', 'value')
-  mlflow.log_metric('metric name', 1)
